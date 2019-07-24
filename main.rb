@@ -13,3 +13,7 @@ end
 get '/blog' do
   erb :blog
 end
+
+not_found do
+  "404: Cannae find this"
+end
